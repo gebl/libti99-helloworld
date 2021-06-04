@@ -53,4 +53,4 @@ Depending on your environment, you may have to stop makeinfo from happening. Thi
 
 ## Thanks
 
-Special shout out and thanks to both jedimatt42 and arcadeshopper for giving me some pointers along the way, and, for publishing code that helped me get to a point that things are working. I started with examining TI99-FTP and the example Telenet application from the tipi project to understand the basics of a build enviorment - the Makefile and linkfile in this project are heavily taken from their work.
+Special shout out and thanks to both jedimatt42 and arcadeshopper for giving me some pointers along the way, and, for publishing code that helped me get to a point that things are working. I started with examining TI99-FTP and the example Telnet application from the tipi project to understand the basics of a build enviorment - the Makefile and linkfile in this project are heavily taken from their work.
