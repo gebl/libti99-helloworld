@@ -51,6 +51,11 @@ Depending on your environment, you may have to stop makeinfo from happening. Thi
     HELLOWORLE    2  PROGRAM         26 B              2021-06-03 18:58:16 C   
 ```
 
+Once this completes you will have a HELLOWORLD.DSK suitable for running inside classic emulator launched from Editor/Assembler option 5, or loaded up on a real machine. 
+
+Once runnig, hitting any key will exit and reboot the system.
+
+
 ## Thanks
 
 Special shout out and thanks to both jedimatt42 and arcadeshopper for giving me some pointers along the way, and, for publishing code that helped me get to a point that things are working. I started with examining TI99-FTP and the example Telnet application from the tipi project to understand the basics of a build enviorment - the Makefile and linkfile in this project are heavily taken from their work.
