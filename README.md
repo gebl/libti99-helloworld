@@ -7,7 +7,7 @@ Just a plug, if you need a tipi, arcadeshopper was very helpful giving me some p
 
 This requires "GCC for TI", libti99, as well as a few other build tools. The best comprehensive directions on how to get a working enviroment are here:
 
-[libti99](https://atariage.com/forums/topic/164295-gcc-for-the-ti/page/24/?tab=comments#comment-4776745)
+[tms9900gcc-Ubuntu-Installation-Guide.md](https://atariage.com/forums/topic/164295-gcc-for-the-ti/page/24/?tab=comments#comment-4776745)
 
 Depending on your environment, you may have to stop makeinfo from happening. This will fix a breaking part of the build that dies on texinfo. That can be done by setting the following environment variable:
   
@@ -18,6 +18,7 @@ Depending on your environment, you may have to stop makeinfo from happening. Thi
 1. Edit the Makefile to point to paths for your system.
 2. Run make
 
+```
     mkdir -p objects
     tms9900-as crt0_ea5.asm -o objects/crt0_ea5.o
     mkdir -p objects
@@ -48,6 +49,7 @@ Depending on your environment, you may have to stop makeinfo from happening. Thi
     ----------------------------------------------------------------------------
     HELLOWORLD    9  PROGRAM       2040 B              2021-06-03 18:58:16 C   
     HELLOWORLE    2  PROGRAM         26 B              2021-06-03 18:58:16 C   
+```
 
 ## Thanks
 
